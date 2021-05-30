@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\Test\\Test.csproj": {}
+  },
+  "projects": {
+    "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\BL\\BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\BL\\BL.csproj",
+        "projectName": "BL",
+        "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\Bahy Talatttt\\.nuget\\packages\\",
+        "outputPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bahy Talatttt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\DAL.csproj"
+              },
+              "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\RLLibrary.csproj": {
+                "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\RLLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Bahy Talatttt\\.nuget\\packages\\",
+        "outputPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bahy Talatttt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\RLLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\RLLibrary.csproj",
+        "projectName": "RLLibrary",
+        "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\RLLibrary.csproj",
+        "packagesPath": "C:\\Users\\Bahy Talatttt\\.nuget\\packages\\",
+        "outputPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bahy Talatttt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.4.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\Bahy Talatttt\\.nuget\\packages\\",
+        "outputPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bahy Talatttt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\BL\\BL.csproj": {
+                "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\BL\\BL.csproj"
+              },
+              "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\DAL\\DAL.csproj"
+              },
+              "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\RLLibrary.csproj": {
+                "projectPath": "D:\\AAA_ITI\\Web api Core youtube\\Prjects\\Test\\RLLibrary\\RLLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
